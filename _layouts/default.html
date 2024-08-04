@@ -10,7 +10,7 @@
 <body>
   <header>
     <h1>{{ site.title }}</h1>
-    <p class="copyright">© 2024 Cloud Native Application Security - From code to cloud to runtime. All rights reserved.</p>
+    <p class="copyright">&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
     <nav>
       <ul>
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
@@ -23,9 +23,6 @@
   <main>
     {{ content }}
   </main>
-  <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
-  </footer>
 </body>
 </html>
 
