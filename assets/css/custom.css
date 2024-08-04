@@ -13,6 +13,12 @@ header h1 {
   color: #fff; /* Set the title color to white */
 }
 
+header .copyright {
+  margin: 5px 0 20px 0;
+  font-size: 0.9em;
+  color: #fff;
+}
+
 header nav {
   margin-top: 10px;
 }
