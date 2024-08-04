@@ -1,4 +1,10 @@
 #theme: jekyll-theme-minimal
+title: My GitHub Pages Site
+description: A simple site using the Cayman theme
 theme: jekyll-theme-architect
+
+# Additional options
+markdown: kramdown
+permalink: pretty
 
 
