@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-![Ebook Cover](https://github.com/gastori/cloud-app-security/blob/main/images/ebook-cover.png)
+![Ebook Cover](https://raw.githubusercontent.com/gastori/cloud-app-security/main/images/ebook-cover.png)
 
 ### Welcome to 'Security of Cloud-Native Applications: From Code to Cloud to Runtime'
 
@@ -35,5 +35,3 @@ The ebook is divided into eleven chapters, each focusing on a critical aspect of
 By the end of this ebook, readers will be well-versed in securing cloud-native applications against a wide array of threats, ensuring robust protection from development through to deployment and ongoing runtime. Whether you are enhancing your existing knowledge or embarking on a new learning journey, this ebook will serve as an invaluable guide in the realm of cloud-native application security.
 
 We invite you to explore each chapter weekly, deepen your understanding, and apply the best practices and strategies discussed to your cloud-native environments.
-
-
