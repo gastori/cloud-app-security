@@ -7,4 +7,11 @@ theme: jekyll-theme-architect
 markdown: kramdown
 permalink: pretty
 
+# Navigation links
+nav_links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+
 
