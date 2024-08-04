@@ -2,12 +2,6 @@ title: My GitHub Pages Site
 description: A simple site using the Architect theme
 theme: jekyll-theme-architect
 
-# Navigation links
-nav_links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-
-
+# Site settings
+markdown: kramdown
 
