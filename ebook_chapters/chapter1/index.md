@@ -1,3 +1,9 @@
+---
+layout: default
+title: Chapter 1
+show_sidebar: true
+---
+
 # Chapter 1: Fundamentals of Cloud-Native Application Security
 
 ## Introduction to Cloud-Native Architectures
