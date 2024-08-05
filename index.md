@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+show_sidebar: true
 ---
 
 <div style="display: flex; align-items: flex-start;">

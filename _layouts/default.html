@@ -20,7 +20,9 @@
     </nav>
   </header>
   <div class="content-wrapper">
-    {% include sidebar.html %}
+    {% if page.show_sidebar %}
+      {% include sidebar.html %}
+    {% endif %}
     <main>
       {{ content }}
     </main>
