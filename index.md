@@ -6,9 +6,9 @@ title: Home
 <div style="display: flex; align-items: flex-start;">
   <img src="https://raw.githubusercontent.com/gastori/cloud-app-security/main/images/ebook-cover.png" alt="Ebook Cover" style="margin-right: 20px; width: 200px; height: auto;">
   <div>
-    <h3>Welcome to 'Security of Cloud-Native Applications: From Code to Cloud to Runtime'</h3>
+    <h2>Welcome to 'Security of Cloud-Native Applications: From Code to Cloud to Runtime'</h2>
     
-    <h4>Introduction</h4>
+    <h3>Introduction</h3>
     <p>In the era of digital transformation, cloud-native applications have become the backbone of modern enterprises. These applications, designed to leverage the full potential of cloud computing, offer unprecedented scalability, agility, and resilience. However, with these advantages come significant security challenges. Cloud-native security encompasses a broad spectrum of practices and technologies aimed at safeguarding applications developed and deployed in cloud environments. This includes protecting the application code, ensuring secure deployment, and maintaining security during runtime.</p>
 
     <p>Cloud-native security is not a singular approach but a comprehensive strategy that involves multiple layers of defense. It integrates traditional security measures with modern practices tailored to the unique characteristics of cloud-native environments. This ebook aims to provide a detailed exploration of these practices, offering insights into the latest security technologies and methodologies that can help organizations secure their cloud-native applications effectively. From secure code development to robust cloud deployment and vigilant runtime security, this resource covers it all.</p>
@@ -17,7 +17,7 @@ title: Home
     <ol>
       <li>Code Development Security: At the initial stage, it is crucial to integrate security into the development process. This involves adopting secure coding practices, performing regular code reviews, and using automated tools to detect vulnerabilities early.</li>
       <li>Cloud Deployment Security: Once the code is ready for deployment, it must be securely configured and deployed in the cloud. This includes managing infrastructure as code (IaC), ensuring proper network security, and implementing robust identity and access management (IAM) practices.</li>
-      <li>3.	Runtime Security: After deployment, the application must be continuously monitored to detect and respond to threats. Runtime security involves real-time monitoring, logging, intrusion detection, and incident response to ensure that the   application remains secure throughout its operation.</li>
+      <li>Runtime Security: After deployment, the application must be continuously monitored to detect and respond to threats. Runtime security involves real-time monitoring, logging, intrusion detection, and incident response to ensure that the   application remains secure throughout its operation.</li>
     </ol>
     <p>By adopting an end-to-end security approach, organizations can create a robust security posture that mitigates risks across the entire application lifecycle.</p>
 
