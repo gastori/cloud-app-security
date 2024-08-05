@@ -8,10 +8,18 @@ title: Home
   <div>
     <h3>Welcome to 'Security of Cloud-Native Applications: From Code to Cloud to Runtime'</h3>
     
-    <h4>Abstract</h4>
-    <p>In the era of digital transformation, cloud-native applications have become the backbone of modern enterprises. These applications, built to leverage the full potential of cloud computing, offer unparalleled flexibility, scalability, and efficiency. However, the shift to cloud-native architecture brings unique security challenges that demand a comprehensive and integrated approach.</p>
+    <h4>Introduction</h4>
+    <p>In the era of digital transformation, cloud-native applications have become the backbone of modern enterprises. These applications, designed to leverage the full potential of cloud computing, offer unprecedented scalability, agility, and resilience. However, with these advantages come significant security challenges. Cloud-native security encompasses a broad spectrum of practices and technologies aimed at safeguarding applications developed and deployed in cloud environments. This includes protecting the application code, ensuring secure deployment, and maintaining security during runtime.</p>
 
-    <p>This ebook, "Security of Cloud-Native Applications: From Code to Cloud to Runtime," is designed to provide a thorough understanding of the security practices essential for protecting cloud-native applications throughout their lifecycle. From secure code development to robust cloud deployment and vigilant runtime security, this resource covers it all.</p>
+    <p>Cloud-native security is not a singular approach but a comprehensive strategy that involves multiple layers of defense. It integrates traditional security measures with modern practices tailored to the unique characteristics of cloud-native environments. This ebook aims to provide a detailed exploration of these practices, offering insights into the latest security technologies and methodologies that can help organizations secure their cloud-native applications effectively. From secure code development to robust cloud deployment and vigilant runtime security, this resource covers it all.</p>
+    <strong>Importance of End-to-End Security (Code-to-Cloud-to-Runtime)</strong>
+    <p>The security of cloud-native applications cannot be confined to a single phase of their lifecycle. Instead, it requires an end-to-end approach that covers the entire journey from code development to deployment and runtime. This holistic view, often referred to as "Code-to-Cloud-to-Runtime" security, ensures that vulnerabilities are addressed at every stage, minimizing the risk of security breaches.</p>
+    <ol>
+      <li>Code Development Security: At the initial stage, it is crucial to integrate security into the development process. This involves adopting secure coding practices, performing regular code reviews, and using automated tools to detect vulnerabilities early.</li>
+      <li>Cloud Deployment Security: Once the code is ready for deployment, it must be securely configured and deployed in the cloud. This includes managing infrastructure as code (IaC), ensuring proper network security, and implementing robust identity and access management (IAM) practices.</li>
+      <li>3.	Runtime Security: After deployment, the application must be continuously monitored to detect and respond to threats. Runtime security involves real-time monitoring, logging, intrusion detection, and incident response to ensure that the   application remains secure throughout its operation.</li>
+    </ol>
+    <p>By adopting an end-to-end security approach, organizations can create a robust security posture that mitigates risks across the entire application lifecycle.</p>
 
     <strong>Key Objectives:</strong>
     <ul>
