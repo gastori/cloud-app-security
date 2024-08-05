@@ -19,9 +19,12 @@
       </ul>
     </nav>
   </header>
-  <main>
-    {{ content }}
-  </main>
+  <div class="content-wrapper">
+    {% include sidebar.html %}
+    <main>
+      {{ content }}
+    </main>
+  </div>
 </body>
 </html>
 
