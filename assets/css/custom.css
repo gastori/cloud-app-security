@@ -50,7 +50,7 @@ header nav ul li a:hover {
 }
 
 .sidebar {
-  width: 500px;
+  width: 800px;
   padding: 20px;
   background-color: #f0f0f0; /* Light gray background for sidebar */
   border-right: 1px solid #e0e0e0;
@@ -91,7 +91,7 @@ main {
 }
 
 .reference-material {
-  width: 500px; /* Fixed width for the reference material section */
+  width: 600px; /* Fixed width for the reference material section */
   padding: 20px;
   background-color: #f7f7f7; /* Light background for reference material */
   border-left: 1px solid #e0e0e0;
