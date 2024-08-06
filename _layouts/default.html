@@ -23,9 +23,12 @@
     {% if page.show_sidebar %}
       {% include sidebar.html %}
     {% endif %}
-    <main>
+    <main class="main-content">
       {{ content }}
     </main>
+    {% if page.show_reference %}
+      {% include reference.html %}
+    {% endif %}
   </div>
 </body>
 </html>
