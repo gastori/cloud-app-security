@@ -85,6 +85,19 @@ main {
   padding-left: 20px; /* Add left padding to the main content */
 }
 
+.main-content {
+  flex: 1;
+  max-width: 1000px; /* Fixed width for the main content */
+  padding-right: 20px; /* Space between content and references */
+}
+
+.reference-material {
+  width: 600px; /* Fixed width for the reference material section */
+  padding: 20px;
+  background-color: #f7f7f7; /* Light background for reference material */
+  border-left: 1px solid #e0e0e0;
+}
+
 /* Ensure the text color is not greyed out */
 body {
   color: #333;
