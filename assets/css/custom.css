@@ -92,7 +92,6 @@ main {
 
 .reference-material {
   width: 600px; /* Fixed width for the reference material section */
-  padding: 20px;
   background-color: #f7f7f7; /* Light background for reference material */
   border-left: 1px solid #e0e0e0;
 }
