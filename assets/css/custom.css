@@ -76,6 +76,10 @@ header nav ul li a:hover {
   margin: 10px 0;
 }
 
+.sidebar ul li.sub-section {
+  margin-left: 20px; /* Indent sub-sections */
+}
+
 .sidebar ul li a {
   text-decoration: none;
   color: #333; /* Default text color */
