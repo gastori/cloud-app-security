@@ -1,13 +1,25 @@
 <div class="sidebar">
-    <h2>Chapters</h2>
-    <ul>
-      <li><strong>ch. 1 - Fundamentals of Cloud-Native Application Security</strong></li>
-      <li class="sub-section"><a href="{{ '/ebook_chapters/chapter1/' | relative_url }}">ch. 1 - Fundamentals of Cloud-Native Application Security</a></li>
-      <li><strong>ch. 2 - Secure Code Development</strong></li>
-      <li class="sub-section"><a href="{{ '/ebook_chapters/chapter2/ch2-1.html' | relative_url }}">ch. 2.1 - Best Practices for Secure Coding</a></li>
-      <li class="sub-section"><a href="{{ '/ebook_chapters/chapter2/ch2-2.html' | relative_url }}">ch. 2.2 - Common Vulnerabilities and How to Avoid Them</a></li>
-      <li class="sub-section"><a href="{{ '/ebook_chapters/chapter2/ch2-3.html' | relative_url }}">ch. 2.3 - Secure Code Review Techniques</a></li>
-      <!-- Add more chapters and sub-sections as needed -->
-    </ul>
-  </div>
+  <h2>Chapters</h2>
+  <button id="expand-all">Expand All</button>
+  <button id="collapse-all">Collapse All</button>
+  <ul>
+    <li>
+      <strong>ch. 1 - Fundamentals of Cloud-Native Application Security</strong>
+      <ul class="sub-section-list">
+        <li class="sub-section"><a href="{{ '/ebook_chapters/chapter1/' | relative_url }}">ch. 1 - Fundamentals of Cloud-Native Application Security</a></li>
+        <!-- Add more sub-sections if needed -->
+      </ul>
+    </li>
+    <li>
+      <strong>ch. 2 - Secure Code Development</strong>
+      <ul class="sub-section-list">
+        <li class="sub-section"><a href="{{ '/ebook_chapters/chapter2/ch2-1.html' | relative_url }}">ch. 2.1 - Best Practices for Secure Coding</a></li>
+        <li class="sub-section"><a href="{{ '/ebook_chapters/chapter2/ch2-2.html' | relative_url }}">ch. 2.2 - Common Vulnerabilities and How to Avoid Them</a></li>
+        <li class="sub-section"><a href="{{ '/ebook_chapters/chapter2/ch2-3.html' | relative_url }}">ch. 2.3 - Secure Code Review Techniques</a></li>
+      </ul>
+    </li>
+    <!-- Add more chapters and sub-sections as needed -->
+  </ul>
+</div>
+
   

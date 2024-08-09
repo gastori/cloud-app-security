@@ -76,6 +76,20 @@ header nav ul li a:hover {
   margin: 10px 0;
 }
 
+.sub-section-list {
+  display: none; /* Initially hide sub-sections */
+  padding-left: 20px;
+}
+
+.sub-section-list li {
+  margin-bottom: 0.3em;
+}
+
+.sidebar ul li strong {
+  cursor: pointer;
+  display: block;
+}
+
 .sidebar ul li.sub-section {
   margin-left: 20px; /* Indent sub-sections */
 }
@@ -87,6 +101,12 @@ header nav ul li a:hover {
 
 .sidebar ul li a:hover {
   color: #007bff; /* Highlight color on hover */
+}
+
+button {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
 .main-content {
