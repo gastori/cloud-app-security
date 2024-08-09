@@ -1,0 +1,145 @@
+---
+layout: default
+title: Chapter 2 - Secure Code Review Techniques
+show_sidebar: true
+show_reference: true
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 2 - Secure Code Review Techniques</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+    <h1 id="chapter-2-secure-code-development">Chapter 2: Secure Code
+        Development</h1>
+        <h2 id="secure-code-review-techniques">Secure Code Review
+        Techniques</h2>
+        <h3 id="establishing-a-structured-code-review-process">Establishing a
+        Structured Code Review Process</h3>
+        <p>Defining a well-structured workflow for code reviews is crucial to
+        ensuring consistency, accountability, and the identification of security
+        vulnerabilities early in the development lifecycle. This process should
+        involve clear roles and responsibilities, as well as well-defined review
+        criteria.</p>
+        <p><strong>Defining Roles and Responsibilities:</strong> -
+        <strong>Developers:</strong> Developers are responsible for submitting
+        their code for review, addressing any feedback or issues identified, and
+        ensuring the code meets the organization’s security standards. They
+        should be trained on secure coding practices and be aware of common
+        security vulnerabilities. - <strong>Reviewers:</strong> Reviewers are
+        tasked with systematically examining the code, identifying potential
+        security vulnerabilities, and providing constructive feedback to the
+        developers. Reviewers should have a strong understanding of secure
+        coding principles, the organization’s security requirements, and the
+        specific business context of the application. - <strong>Security
+        Experts:</strong> Security experts are involved in reviewing critical
+        code paths and high-risk areas, leveraging their specialized security
+        knowledge and expertise. They can provide in-depth analysis and guidance
+        to help identify and mitigate complex security issues that may be missed
+        by general reviewers.</p>
+        <p><strong>Establishing Review Criteria:</strong> - <strong>New
+        Features:</strong> All new features should undergo a thorough code
+        review to identify potential security issues. Reviewers should assess
+        the code for input validation, error handling, access controls,
+        cryptography, and other security-critical aspects. - <strong>Changes to
+        Existing Code:</strong> Any changes made to existing code, such as bug
+        fixes or refactoring, should also be reviewed to ensure that they do not
+        introduce new vulnerabilities. Reviewers should carefully examine how
+        the changes interact with the existing codebase and its security
+        mechanisms. - <strong>Bug Fixes:</strong> Even seemingly simple bug
+        fixes should be reviewed to ensure that the fix does not inadvertently
+        create new security problems. Developers should be aware that innocuous
+        bug fixes can sometimes lead to unintended security consequences.</p>
+        <p><strong>Example:</strong> A company might have a well-defined code
+        review process where developers first submit their code to a central
+        code repository. The code is then reviewed by a team of developers and
+        security experts, who provide feedback and approval before the code can
+        be merged into the main codebase and deployed. The review process is
+        documented in the organization’s secure coding guidelines, and all team
+        members are trained on their respective roles and responsibilities
+        during the onboarding process.</p>
+        <h3 id="leveraging-automated-code-review-tools">Leveraging Automated
+        Code Review Tools</h3>
+        <p>Automated code review tools can significantly enhance the efficiency
+        and effectiveness of the code review process. These tools can scan code
+        for common security issues and coding errors, allowing human reviewers
+        to focus on more complex and contextual security concerns.</p>
+        <p><strong>Static Application Security Testing (SAST):</strong> -
+        <strong>SAST Tools:</strong> SAST tools, such as SonarQube, Checkmarx,
+        and Coverity, can identify a wide range of vulnerabilities, including
+        buffer overflows, SQL injection, and cross-site scripting (XSS). These
+        tools analyze the code without executing it, looking for patterns and
+        anti-patterns that may indicate security issues. - <strong>Integrating
+        with CI/CD:</strong> Incorporating SAST tools into the Continuous
+        Integration and Continuous Deployment (CI/CD) pipeline ensures that code
+        is regularly scanned, and issues are identified early in the development
+        process. This helps prevent vulnerabilities from being introduced into
+        the production environment.</p>
+        <p><strong>Dynamic Application Security Testing (DAST):</strong> -
+        <strong>DAST Tools:</strong> DAST tools, such as OWASP ZAP, Burp Suite,
+        and Arachni, analyze the application’s behavior during runtime to
+        identify vulnerabilities. These tools can detect issues that may be
+        missed by static analysis, such as logic flaws and architectural
+        weaknesses. - <strong>Integrating with CI/CD:</strong> Similar to SAST
+        tools, DAST tools can be integrated into the CI/CD pipeline to
+        automatically scan the application during the build and deployment
+        process. This helps catch vulnerabilities before the application is
+        released to production.</p>
+        <p><strong>Combining SAST and DAST:</strong> - <strong>Complementary
+        Approach:</strong> Using both SAST and DAST tools provides a more
+        comprehensive approach to automated code review. SAST tools focus on the
+        code itself, while DAST tools examine the application’s runtime
+        behavior, allowing for the identification of a wider range of security
+        issues. - <strong>Integrated Solutions:</strong> Some security tool
+        suites, such as OWASP ZAP and Burp Suite Professional, combine both SAST
+        and DAST capabilities, making it easier to manage and coordinate the
+        automated code review process.</p>
+        <p><strong>Example:</strong> A company might use a SAST tool like
+        SonarQube to automatically scan their codebase for security
+        vulnerabilities, and a DAST tool like OWASP ZAP to test the
+        application’s runtime behavior. Both tools are integrated into the
+        company’s CI/CD pipeline, so that every code commit triggers a security
+        scan, and any identified issues are flagged for the development team to
+        address before the code can be merged and deployed.</p>
+        <h3 id="adhering-to-secure-coding-standards">Adhering to Secure Coding
+        Standards</h3>
+        <p>Adhering to established secure coding standards helps ensure that
+        code is developed with security in mind from the start. This promotes
+        consistency and makes it easier for reviewers to identify deviations
+        that may indicate potential vulnerabilities.</p>
+        <p><strong>Secure Coding Guidelines:</strong> - <strong>OWASP Secure
+        Coding Practices:</strong> The Open Web Application Security Project
+        (OWASP) provides a comprehensive set of secure coding practices that
+        cover various aspects of software development, such as input validation,
+        error handling, authentication, authorization, and cryptography. -
+        <strong>CERT Secure Coding Standards:</strong> The CERT Secure Coding
+        Standards, maintained by the Software Engineering Institute at Carnegie
+        Mellon University, offer guidance on writing secure code in various
+        programming languages, including C, C++, Java, and Perl.</p>
+        <p><strong>Ensuring Consistency and Documentation:</strong> -
+        <strong>Consistent Patterns and Practices:</strong> Ensuring that code
+        follows consistent patterns and practices makes it easier for reviewers
+        to identify deviations and potential vulnerabilities. This includes
+        using established design patterns, consistent variable naming
+        conventions, and following a standardized code style. - <strong>Thorough
+        Documentation:</strong> Maintaining detailed documentation of the
+        organization’s coding standards and guidelines, and making them
+        accessible to all team members, helps reinforce the importance of secure
+        coding practices. This documentation should be regularly reviewed and
+        updated to keep pace with evolving security threats and best
+        practices.</p>
+        <p><strong>Example:</strong> A team of developers working on a web
+        application might follow the OWASP Secure Coding Practices, which
+        provide guidance on input validation, error handling, authentication,
+        authorization, and cryptography. The team’s coding guidelines are
+        documented in a central repository and are shared with all developers
+        during onboarding. The guidelines are also regularly reviewed and
+        updated by the security team to ensure they remain relevant and
+        effective.</p>
+</body>
+</html>
